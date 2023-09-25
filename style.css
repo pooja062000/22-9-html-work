@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.main-outer{
+
+    width: 50%;
+    height: 705px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+
+h5{
+    font-size: 13px;
+    padding-top: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000a1;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #3f51b5;
+    padding-top: 28px;
+}
+.about-text{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    line-height: 23px;
+    color: #00000085;
+}
+.side-box-image{
+    width: 300px;
+    height: 407px;
+    float: left;
+    margin-left: 0px;
+    background-color: #1631c6;
+}
+.main-row-img{
+    width: 694px;
+    height: 410px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.img-box{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('https://imgs7.luluandsky.com/catalog/product/A/N/ANVI-TSHIRT-019_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 32px;
+}
+h3{
+    text-align: center;
+    color: #f0f0f0;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 15px;
+    line-height: 28px;
+}
+.butt-box-main{
+    width: 113px;
+    height: 43px;
+margin: 0 auto;
+margin-top: 21px;
+}
+.lea-more-butt{
+    width: 115px;
+    height: 35px;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #a9a9a9;
+    color: #e5e2e2;
+    background-color: #1631c6;
+}
+.gra-col{
+    width: 390px;
+    height: 407px;
+    float: left;
+}
+.grap-box1{
+    width: 170px;
+    height: 191px;
+    float: left;
+    margin-left: 27px;
+    background-color: white;
+}
+.icon-grap{
+    width: 44px;
+    height: 44px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjvJOgLJBPYYVzb-jHOUVa0zCQemSKJ_s1dIbvmBi3HI2iaJJRyY0KHNY0-KRYLodmk4&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 22px;
+    margin-top: 48px;
+}
+.grap-text{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 18px;
+    color: #312e2ed9;
+padding-top: 17px;
+    letter-spacing: 0.2px;
+}
+.grap-more-butt{
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 18px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    color: #262424d4;
+    border: none;
+    background-color: white;
+}
+.unde{
+    width: 29px;
+    height: 0.1px;
+    border: 1px solid #262424d4;
+    margin-top: 1px;
+    margin-left: 18px;
+    text-decoration-line: underline;
+}
+.we-desi-box2{
+    width: 170px;
+    height: 191px;
+    margin-left: 0px;
+    float: right;
+    background-color: white;
+}
+.we-desi-icon{
+    
+    font-size: 45px;
+}
+.we-desi-icon i{
+    color: #3ee0d7;
+    margin-left: 22px;
+    margin-top: 48px;
+}
+
+.we-desi-text{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 18px;
+    color: #312e2ed9;
+    padding-top: 17px;
+    letter-spacing: 0.2px;
+}
+.we-desi-butt{
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 18px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    color: #262424d4;
+    border: none;
+    background-color: white; 
+}
+.web-unde{
+    width: 29px;
+    height: 0.1px;
+    border: 1px solid #262424d4;
+    margin-top: 1px;
+    margin-left: 18px;
+    text-decoration-line: underline;   
+}
+.soft-box3{
+    width: 170px;
+    height: 191px;
+    float: left;
+    margin-left: 27px;
+    margin-top: 22px;
+    background-color: white; 
+}
+.soft-icon{
+    width: 44px;
+    height: 44px;
+    background-image: url('https://cdn2.iconfinder.com/data/icons/seo-internet-marketing-1/256/Custom_Coding-512.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 22px;
+    margin-top: 48px;
+}
+.soft-text{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 18px;
+    color: #312e2ed9;
+    padding-top: 17px;
+    letter-spacing: 0.2px;   
+}
+.soft-butt{
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 18px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    color: #262424d4;
+    border: none;
+    background-color: white;
+}
+.soft-unde{
+    width: 29px;
+    height: 0.1px;
+    border: 1px solid #262424d4;
+    margin-top: 1px;
+    margin-left: 18px;
+    text-decoration-line: underline;
+}
+.appl-box4{
+    width: 170px;
+    height: 191px;
+    margin-left: 0px;
+    float: right;
+    margin-top: 22px;
+    background-color: white; 
+}
+.appl-box4-icon{
+    font-size: 45px;
+}
+i{
+    margin-left: 22px;
+    margin-top: 48px;
+    color: #ffd54fd1;   
+}
+.appl-text{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 18px;
+    color: #312e2ed9;
+    padding-top: 17px;
+    letter-spacing: 0.2px; 
+}
+.appl-box4-butt{
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 18px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    color: #262424d4;
+    border: none;
+    background-color: white;
+}
+.appl-unde{
+    width: 29px;
+    height: 0.1px;
+    border: 1px solid #262424d4;
+    margin-top: 1px;
+    margin-left: 18px;
+    text-decoration-line: underline;      
+}
