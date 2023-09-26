@@ -6,7 +6,8 @@
 
 body{
     background-color: black;
-    font-family: 'Nunito Sans', sans-serif;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 .main-outer{
 
@@ -99,6 +100,8 @@ margin-top: 21px;
     float: left;
     margin-left: 27px;
     background-color: white;
+    box-shadow: 1px 1px 5px rgb(24 24 24 / 28%);
+    border-bottom: 6px solid #a16c5a; 
 }
 .icon-grap{
     width: 44px;
@@ -141,16 +144,24 @@ padding-top: 17px;
     margin-left: 0px;
     float: right;
     background-color: white;
+    box-shadow: 1px 1px 5px rgb(24 24 24 / 28%);
+    border-bottom: 6px solid rgb(5, 247, 215) ; 
 }
 .we-desi-icon{
+    width: 44px;
+    height: 44px;
+    background-image: url('Images/u.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 22px;
+    margin-top: 48px;
     
-    font-size: 45px;
 }
-.we-desi-icon i{
+/*.we-desi-icon i{
     color: #3ee0d7;
     margin-left: 22px;
     margin-top: 48px;
-}
+}*/
 
 .we-desi-text{
     font-size: 17px;
@@ -185,6 +196,8 @@ padding-top: 17px;
     margin-left: 27px;
     margin-top: 22px;
     background-color: white; 
+    box-shadow: 1px 1px 5px rgb(24 24 24 / 28%);
+    border-bottom: 6px solid rgb(6, 124, 243);   
 }
 .soft-icon{
     width: 44px;
@@ -227,7 +240,9 @@ padding-top: 17px;
     margin-left: 0px;
     float: right;
     margin-top: 22px;
-    background-color: white; 
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(24 24 24 / 28%); 
+    border-bottom: 6px solid rgb(223 189 18 / 94%);   
 }
 .appl-box4-icon{
     font-size: 45px;
@@ -263,3 +278,4 @@ i{
     margin-left: 18px;
     text-decoration-line: underline;      
 }
+
