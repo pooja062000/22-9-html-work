@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body{
@@ -9,8 +10,40 @@ body{
     /*font-family: 'Nunito Sans', sans-serif;*/
     font-family: Arial, Helvetica, sans-serif;
 }
-.main-outer{
+.jav-grap-box1{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none ;
+    float: right;
+    margin-right: 5px;
+}
 
+.icon-grap-jav{
+    width: 60px;
+    height: 60px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjvJOgLJBPYYVzb-jHOUVa0zCQemSKJ_s1dIbvmBi3HI2iaJJRyY0KHNY0-KRYLodmk4&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-left: 30px;
+   margin-top: 10%;
+}
+.popup_content {
+    width: 100%;
+    height: 407px;
+    float: left;
+    border-bottom: 10px solid rgb(223, 189, 18);
+  }
+.jav-text-grap{
+    margin-left: 30px;
+    padding-top: 25px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+.main-outer{
     width: 50%;
     height: 705px;
     margin: 0 auto;
@@ -120,7 +153,16 @@ margin-top: 21px;
 padding-top: 17px;
     letter-spacing: 0.2px;
 }
-.grap-more-butt{
+.button-close {
+    color: rgb(223, 189, 18);
+    font-weight: 700;
+    cursor: pointer;
+    padding: 11px 23px;
+    margin-left: 5px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+.button{
     font-size: 9px;
     font-weight: bold;
     margin-left: 18px;
